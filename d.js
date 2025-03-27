@@ -11,7 +11,7 @@ async function get() {
 
     // Fetch the drive info from backend using the entered uniqueId
     try {
-        const response = await fetch(`https://myspringboot-10.onrender.com/api/driveinfo/${uniqueId}`, {
+        const response = await fetch(`https://myspringboot-10.onrender.com/api/driveinfo/unique/{uniqueId}`, {
             method: 'GET', // GET request to fetch the data
             headers: {
                 'Content-Type': 'application/json'
