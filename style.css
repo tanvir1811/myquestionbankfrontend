@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(205, 227, 225);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#ss1 {
+    background-image: url("./img/ss.jpg");
+    background-color: rgb(84, 41, 6);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 180px;
+}
+
+#ll {
+    color: rgb(0, 0, 0);
+    background-color: rgb(223, 230, 236);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-bottom: 14px;
+    height: 25px;
+}
+
+#si input, #si1 input, #si2 input {
+    border-radius: 10px;
+    text-align: center;
+    background: white;
+    border: 2px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    width: 60%;
+    height: 30px;
+    display: block;
+    margin: 10px auto;
+    font-weight: lighter;
+    font-size: 1rem;
+}
+
+#sib, #si2b, #si1b {
+    border-radius: 20px;
+    background: rgb(209, 222, 209);
+    font-weight: bold;
+    font-size: 1.2rem;
+    display: block;
+    margin-left: 43%;
+    margin-top: 40px;
+    cursor: pointer;
+    width: 160px;
+}
+
+#si1b {
+    margin-left: 35%;
+    width: 420px;
+}
+
+#b1 {
+    background-color: rgb(229, 221, 215);
+    min-height: 100px; /* Ensures it has some height even when there's no content */
+    padding: 20px; /* Adds padding for better spacing */
+    margin-top: 40px; /* Adjusted margin for better spacing */
+    width: 80%; /* Makes the section more responsive */
+    margin-left: 10%; /* Centers the section horizontally */
+    border-radius: 10px; /* Optional: Adds rounded corners for aesthetics */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+}
+
+
+#s21 button {
+    border-radius: 20px;
+    background: honeydew;
+    font-weight: bold;
+    font-size: 1.2rem;
+    display: block;
+    margin-left: 44%;
+    margin-top: 40px;
+    width: 160px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#s21 button:hover {
+    background-color: lightgreen;
+}
